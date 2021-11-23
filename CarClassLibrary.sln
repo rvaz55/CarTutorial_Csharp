@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarClassLibrary", "CarClassLibrary\CarClassLibrary.csproj", "{20DEA668-34BA-40FD-9CB2-6F0C8660CCEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStoreConsoleApp", "CarStoreConsoleApp\CarStoreConsoleApp.csproj", "{488B1A72-351F-461B-B13E-0D97B92E6589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerificationLibrary", "Verification\VerificationLibrary.csproj", "{5938DE72-0C6F-46E5-8E43-C2492B3D3945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20DEA668-34BA-40FD-9CB2-6F0C8660CCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DEA668-34BA-40FD-9CB2-6F0C8660CCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DEA668-34BA-40FD-9CB2-6F0C8660CCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DEA668-34BA-40FD-9CB2-6F0C8660CCEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488B1A72-351F-461B-B13E-0D97B92E6589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488B1A72-351F-461B-B13E-0D97B92E6589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488B1A72-351F-461B-B13E-0D97B92E6589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488B1A72-351F-461B-B13E-0D97B92E6589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5938DE72-0C6F-46E5-8E43-C2492B3D3945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5938DE72-0C6F-46E5-8E43-C2492B3D3945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5938DE72-0C6F-46E5-8E43-C2492B3D3945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5938DE72-0C6F-46E5-8E43-C2492B3D3945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {593546D1-5204-4D2B-A517-7CE3FEDAD108}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.VersionControlPolicy = $5
+		$5.CommitMessageStyle = $6
+		$6.LastFilePostfix = "@:\n  "
+		$6.IncludeDirectoryPaths = True
+	EndGlobalSection
+EndGlobal
