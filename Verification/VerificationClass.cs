@@ -40,6 +40,7 @@ namespace VerificationLibrary
             return false;
         }
 
+        //Stackoverflow entry on the usefullness of Interfaces: https://stackoverflow.com/questions/896611/purpose-of-idictionary-interface/896635#896635
         public static object isCarInInventory(string response, IDictionary<int, Car> inventory)
         {
             object response_isNumber = verifyReponse(response);

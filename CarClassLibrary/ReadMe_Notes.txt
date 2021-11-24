@@ -12,7 +12,7 @@ Project(s): [ CarClassLibrary, CarStoreConsoleApp, VerificationLibrary ]
 
 helpful Git commands:
 command                         (Definition)
-git init                        ()
+git init                        (start local version-control for repo)
 git branch                      (To see local branches, run this command)
 git branch -r                   (To see remote branches, run this command)
 git branch -a                   (To see all local and remote branches, run this command)

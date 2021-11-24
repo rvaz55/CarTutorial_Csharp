@@ -10,13 +10,11 @@ namespace CarStoreConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             string res;
             object selection_isValid;
             object carID_isValid = false;
             int indxr;
-            Car carVW = new Car("Volkswagen","Tiguan",18000.00M, 101050);
+            Car carVW = new Car("Volkswagen","Tiguan", 2012, 18000.00M, 101050, false, true, true, true);
          
             Store dealership = new Store(carVW);
             do
