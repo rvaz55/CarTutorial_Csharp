@@ -44,7 +44,7 @@ namespace CarClassLibrary
         {
             if (_storeInventory.Count == 0 )
             {
-                Car carVolvo = new Car("Volvo", "XC40 Recharge", 38000.00M, 0);
+                Car carVolvo = new Car("Volvo", "XC40 Recharge", 2021, 38000.00M, 0, true, true, true, true);
                 _storeInventory.Add(1000, carVolvo);           
             }
 

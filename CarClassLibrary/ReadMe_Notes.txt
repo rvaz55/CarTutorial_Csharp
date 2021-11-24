@@ -21,3 +21,12 @@ git rm -r git                   ('rm' command removes folder ; '-r' command remo
 git ls-files                    ('ls-files' command list all files in the current directory)
 
 
+Other helpful notes:
+git add -a                      (if a commit message was not added, the user will get a message asking
+                                 for a commit message. When this occurs the terminal will immediatley
+                                 open Vim text-editor in the same terminal and will ask you to write
+                                 a commit message. To do this, first press the 'I' key to enter "Insert"
+                                 mode. Then type out your message. Finally, to save the text and
+                                 close Vim, press the 'ESC' key and then type in ':wq' - which means
+                                 'write' and 'quit'. The : symbol precedes a command. )
+

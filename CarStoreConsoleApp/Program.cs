@@ -24,7 +24,8 @@ namespace CarStoreConsoleApp
                     Console.WriteLine("Please select an option: " +
                         "\n 1)Browse store inventory " +
                         "\n 2)Manage store inventory" +
-                        "\n To Quit, enter Q! at any time...");
+                        "\n To Quit, enter Q! at any time..." +
+                        "\nSelection: ");
                     res = Console.ReadLine();
 
                     selection_isValid = VerificationObj.verifyReponse(res);
@@ -59,7 +60,10 @@ namespace CarStoreConsoleApp
                                     msg += $"\n \tModel: {carData.Model} ";
                                     msg += $"\n \tPrice: {carData.Price} ";
                                     msg += $"\n \tMileage: {carData.Mileage} ";
-                                    msg += $"\nWould you like to test-drive or purchase this car: ";
+                                    msg += $"\n \tHasLeatherSeats: {carData.HasLeatherSeats} ";
+                                    msg += $"\n \tHasSunroof: {carData.HasSunroof} ";
+                                    msg += $"\n \tIsForSale: {carData.IsForSale} ";
+                                    msg += $"\nWould you like to test-drive or purchase this car? T = test, P = purchase vehicle ";
                                     Console.WriteLine(msg);
 
                                     res = Console.ReadLine();

@@ -10,10 +10,10 @@ namespace CarClassLibrary
         public int Year { get; set; }
         public decimal Price { get; set; }
         public int Mileage { get; set; }
-        bool hasLeatherSeats { get; set; }
-        bool hasSunroof { get; set; }
-        bool hasEngine { get; set; }
-        bool isForSale { get; set; }
+        public bool HasLeatherSeats { get; set; }
+        public bool HasSunroof { get; set; }
+        public bool HasEngine { get; set; }
+        public bool IsForSale { get; set; }
 
         //Tutorial Task: Add a few more properties to the Car class
 
@@ -31,10 +31,10 @@ namespace CarClassLibrary
             Year = 2021;
             Price = 1000.00M;
             Mileage = 0;
-            hasLeatherSeats = true;
-            hasSunroof = true;
-            hasEngine = false;
-            isForSale = true;
+            HasLeatherSeats = true;
+            HasSunroof = true;
+            HasEngine = false;
+            IsForSale = true;
 
         }
 
@@ -49,10 +49,10 @@ namespace CarClassLibrary
             Year = c;
             Price = d;
             Mileage = e;
-            hasLeatherSeats = f;
-            hasSunroof = g;
-            hasEngine = h;
-            isForSale = i;
+            HasLeatherSeats = f;
+            HasSunroof = g;
+            HasEngine = h;
+            IsForSale = i;
         }
 
 
