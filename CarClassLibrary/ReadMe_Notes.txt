@@ -11,9 +11,13 @@ Project(s): [ CarClassLibrary, CarStoreConsoleApp, VerificationLibrary ]
 
 
 helpful Git commands:
-command         (Definition)
-git init        ()
-git branch      (To see local branches, run this command)
-git branch -r   (To see remote branches, run this command)
-git branch -a   (To see all local and remote branches, run this command)
-git rm -r git   ('rm' command removes folder ; '-r' command removed nested files under the folder named 'git')
+command                         (Definition)
+git init                        ()
+git branch                      (To see local branches, run this command)
+git branch -r                   (To see remote branches, run this command)
+git branch -a                   (To see all local and remote branches, run this command)
+git checkout -b /feature123     ('checkout -b' tells the repo to switch to a new branch named '/feature123' )
+git rm -r git                   ('rm' command removes folder ; '-r' command removed nested files under the folder named 'git')
+git ls-files                    ('ls-files' command list all files in the current directory)
+
+

@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using CarClassLibrary;
 
 namespace VerificationLibrary
 {
@@ -35,6 +38,27 @@ namespace VerificationLibrary
             }
 
             return false;
+        }
+
+        public static object isCarInInventory(string response, IDictionary<int, Car> inventory)
+        {
+            object response_isNumber = verifyReponse(response);
+            object response_isValidCardID;
+
+            if (response_isNumber.GetType() == typeof(Int32))
+            {
+                //Add link for type-casting
+                int cardID = (Int32)response_isNumber;
+                //To do: check that the cardID is in the inventory
+                response_isValidCardID =  inventory.ContainsKey(cardID);
+
+                if ((bool)response_isValidCardID == true)
+                {
+                    return cardID;
+                }
+                return response_isValidCardID;
+            }
+            return response_isNumber;
         }
 
         #endregion
