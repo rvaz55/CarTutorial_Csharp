@@ -12,7 +12,7 @@ namespace CarClassLibrary
         #region 1.a) Subsection of Properties & Fields: Private backing-fields
         #region Notes
         ///By convention, private-backing fields begin with a single underscore
-        //The keyterm 'private' is access-modifier and when added to thte field or
+        //The keyterm 'private' is access-modifier and when added to the field or
         //property of a class, it means that the field or property can only be accessed
         //by code that lives within the 'Store' class. In this examples, this means
         //that the 'Car' class is unable to access (read OR write) directly 

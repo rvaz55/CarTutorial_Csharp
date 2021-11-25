@@ -33,7 +33,9 @@ namespace VerificationLibrary
 
             if (!String.IsNullOrWhiteSpace(response))
             {
-                isNumber = Int32.TryParse(response, out num);
+                isNumber = int.TryParse(response, out num);
+
+
                 return num;
             }
 
